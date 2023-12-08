@@ -1,0 +1,278 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* logo  */
+
+.logo {
+    width: 10%;
+    margin: 20px 0 10px 150px;
+}
+    
+
+/* navbar  */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    position: sticky;
+    top: 0;}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;}
+.navbar ul li{
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 8px  50px;
+    font-size: 100%;
+}
+.navbar ul li a:hover{
+    color:chocolate;} 
+
+    /* home section  */
+
+#home{
+    background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}    
+.main{
+    padding: 0;
+    margin: 0;
+} 
+
+span{
+    font-size: 25px;
+    text-transform: capitalize;
+    color:rgba(255, 255, 255, 0.719);
+    text-align: center;
+}
+.headings{
+    text-align: center;
+    font-size: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    word-spacing: 0.1;
+    color: white;
+    padding: 125px;}
+.btn{
+    align-items: center;
+    background-color: rgba(255, 255, 0, 0.712);
+    transition: .6s ease;
+    border: 1px;
+    padding: 10px 50px 10px 50px;  
+    font-size: large;
+    border-radius: 10px; 
+}
+
+/* ............services..........  */
+
+#services{
+    align-items: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.head{
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+.box-container{
+    text-align: center;
+    width: 90%;
+    margin-left: 80px;
+}
+.box{
+    float: left;
+    margin: 10px;
+    padding: 3px 3px 3px 3px;
+    width: 180px;
+    height: 250px;
+
+    background-color: rgba(255, 145, 0, 0.993);
+}
+.box h3{
+    text-align: center;
+    padding: 10px;
+    color:white;
+}
+.box img{
+    width: 80px;
+    height: 90px;
+    float: middle;
+    margin-top: 20px;
+    color:orange;}
+.box-container :hover{
+    background-color: black;
+}
+
+
+
+/* .......................about.......................  */
+
+.about{
+    display: inline-block;
+    width: 85%;
+    margin: 120px;
+}
+
+.content{
+    width: 620px;
+    height: 500px;
+    display: inline-block;
+    background-color: whitesmoke;
+    margin: 0px 20px 0px 0px ;
+    padding: 30px;
+}
+.image{
+    width: 700px;
+    height: 500px;
+    display: inline-block;
+    padding: 50px;
+    float: left;
+    background-image: url(images/IMG-20231201-WA0002.jpg);
+    background-repeat: no-repeat;
+}
+.content h3{
+    text-align: left;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    margin: 30px;}
+
+.content p{
+    text-align: left;
+    font-family: sans-serif;
+    margin: 30px;
+    word-spacing: 0.6em;
+}
+.butn {
+    background-color:yellow;
+    padding: 15px 50px 15px 50px;
+    border-radius: 10px;
+    border: 1px yellow;
+    font-size: 20px;
+}
+
+/* ..................packages.............  */
+
+#packages{
+    display: inline-block;
+    background-color: whitesmoke;
+    width: 100%;
+}
+.heading{
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 50px;
+    font-family: sans-serif;
+}
+.container {
+    width: 31%;
+    border: 1px solid;
+    display: inline-block;
+    margin: 15px;
+    background-color: white;
+}
+
+.price span{
+    color: chocolate;
+    padding-left: 20px;
+}
+
+.imgs img {
+    width: 100%;
+}
+.imgs h4{
+    text-align: center;
+    font-size:25px;
+    padding-top: 15px;
+}
+
+.list ul{
+    list-style:none;
+    list-style-position: inside;
+}
+.list ul li{
+    padding-left: 20px;
+    word-spacing: 0.1em;
+}
+.butn{
+    margin: 20px 10px 30px 20px;
+    color: chocolate;
+}
+img:hover{
+    transform: scale(0.5) translate(10%, 10%)
+}
+
+.anchor-tag{
+    background-color: yellow;
+    width: 160px;
+    height: 45px;
+    padding: 10px;
+    font-size: 150%;
+    margin: 20px;
+    text-transform: capitalize;
+}
+.anchor-tag a{
+    text-decoration: none;
+    color: chocolate;
+}
+
+
+/* ...................footer.............  */
+
+.footer{
+    background-image: url(images/IMG-20231201-WA0019.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 70vh;
+}
+.foot-div{
+    text-align: center;
+    padding: 30px;
+}
+.box-foot{
+    float: left;
+    margin: 50px;
+    padding: 20px 10px 10px 10px;
+    width: 250px;
+    height: 250px;
+}
+.box-foot h3{
+    font-size: 30px;
+    color: white;
+    text-transform: capitalize;
+    padding: 0px 0px 20px 0px;
+}
+
+.box-foot a{
+    color: rgba(240, 248, 255, 0.644);
+    text-decoration: none;
+    font-size: 160%;
+    margin: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
